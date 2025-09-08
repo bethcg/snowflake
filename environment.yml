@@ -1,0 +1,17 @@
+name: "test-env"
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+ - matplotlib
+ - numpy==1.25.2
+ - pandas 
+ - scikit-learn
+ - seaborn 
+ - statsmodels
+ - streamlit 
+ - snowflake-snowpark-python
+ - snowflake-connector-python
+# - add packages here
+# - one per line
+prefix: "/opt/conda"
